@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support & Help</title>
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --card-bg: #ffffff;
+      --text-main: #111827;
+      --text-muted: #4b5563;
+      --border: #e5e7eb;
+      --primary: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text-main: #f8fafc;
+        --text-muted: #94a3b8;
+        --border: #334155;
+        --primary: #3b82f6;
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      background-color: var(--bg);
+      color: var(--text-main);
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 680px;
+      width: 100%;
+      background: var(--card-bg);
+      padding: 32px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.3rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    p, li {
+      color: var(--text-muted);
+    }
+    .contact-box {
+      background-color: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin: 20px 0;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    <header>
+      <h1>Support Center</h1>
+      <p>Welcome to our technical assistance page. If you have any questions, encounter issues, or have suggestions regarding the app, we are here to help.</p>
+    </header>
+
+    <section class="contact-box">
+      <strong>Direct Contact:</strong>
+      <p style="margin: 8px 0 0 0;">
+        You can reach us anytime at: 
+        <a href="mailto:info@soulroutineapp.com">info@soulroutineapp.com</a>
+      </p>
+      <p style="margin: 4px 0 0 0; font-size: 0.9rem;">
+        Estimated response time: within 48 business hours.
+      </p>
+    </section>
+
+    <section>
+      <h2>Frequently Asked Questions</h2>
+      
+      <p><strong>How do I report a bug or issue?</strong></p>
+      <p>Send us an email describing the issue in detail, along with your device model and operating system version.</p>
+
+      <p><strong>How can I request the deletion of my account or data?</strong></p>
+      <p>Send an email to the contact address above requesting the deletion of your account and data, and we will permanently remove your records in compliance with our privacy policy.</p>
+    </section>
+
+    <footer>
+      &copy; 2026 SoulRoutine. All rights reserved.
+    </footer>
+  </main>
+
+</body>
+</html>
